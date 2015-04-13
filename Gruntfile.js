@@ -16,7 +16,7 @@ module.exports = function(grunt) {
             'js/profile.js',
             'js/experience.js',
             'js/project.js',
-            'js/description.js'
+            'js/skill.js'
           ]
         }
       }
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
             'css/profile.less',
             'css/experience.less',
             'css/project.less',
-            'css/desciption.less'
+            'css/skill.less'
           ]
         }
       }
