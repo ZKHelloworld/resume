@@ -1,0 +1,32 @@
+{
+  "name": "郑铿宏",
+  "gender": "男",
+  "birth": "1989-12",
+  "high_school": "暨南大学",
+  "grade": "13届本科",
+  "majar": "计算机科学与技术",
+  "phone": "186-1712-0383",
+  "email": "zhengkenghong@gmail.com",
+  "gravatar": "http://www.gravatar.com/avatar/1cd51f0ba2679fae4718338ac3b9dde9?s=200",
+  "sns": [{
+    "href": "https://twitter.com/zhengkenghong",
+    "alt": "twitter",
+    "src": "public/images/twitter.png"
+  }, {
+    "href": "http://www.zkh.im/wordpress/",
+    "alt": "blog",
+    "src": "public/images/wordpress.png"
+  }, {
+    "href": "http://chanyouji.com/trips/37829",
+    "alt": "chanyouji",
+    "src": "public/images/chanyouji.png"
+  }, {
+    "href": "http://weibo.com/zhengkenghong",
+    "alt": "weibo",
+    "src": "public/images/weibo.png"
+  }, {
+    "href": "https://github.com/ZKHelloworld",
+    "alt": "github",
+    "src": "public/images/github.png"
+  }]
+}

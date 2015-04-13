@@ -1,0 +1,43 @@
+{
+  "project": "项目经历",
+  "projects": [{
+    "title": "MIFI WEBUI",
+    "duration": "13/11-15/4",
+    "brief": "Mobile WIFI的配置页面。我主要负责工程搭建、公共组件的js实现、部分页面开发等。",
+    "tech": [
+      "Grunt", "jQuery", "Mustache"
+    ],
+    "details": [
+      ""
+    ]
+  }, {
+    "title": "云插件",
+    "duration": "14/10-15/4",
+    "brief": "TP-LINK APP的插件页面。我主要负责工程搭建、核心框架实现、部分插件开发。",
+    "tech": [
+      "Grunt", "jQuery Mobile"
+    ],
+    "details": [
+      ""
+    ]
+  }, {
+    "title": "IOT服务器",
+    "duration": "14/8-15/4",
+    "brief": "",
+    "tech": [
+      "NodeJS", "AngularJS", "Grunt", "ExpressJS", "Mysql", "Bootstrap", "Highstock", "Bower", "Jasmime"
+    ],
+    "details": [
+      ""
+    ]
+  }, {
+    "title": "Redmine Issue模板插件",
+    "brief": "",
+    "tech": [
+      "ROR"
+    ],
+    "details": [
+      ""
+    ]
+  }]
+}
