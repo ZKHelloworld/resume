@@ -41,7 +41,7 @@
 
       <!-- experiences -->
       <div ng-controller="experience">
-        <h1>{{experience}}</h1>
+        <h1 class="title">{{experience}}</h1>
         <div ng-repeat="e in experiences" class="experience">
           <h2>{{e.company}} {{e.title}} <span class="duration">{{e.duration}}<span></h2>
         </div>
@@ -49,19 +49,22 @@
 
       <!-- projects -->
       <div ng-controller="project">
-        <h1>{{project}}</h1>
+        <h1 class="title">{{project}}</h1>
         <div ng-repeat="p in projects" class="projects">
           <h2>{{p.title}} <span class="duration">{{p.duration}}</span></h2>
           <p class="brief">{{p.brief}}</p>
-          <p ng-repeat="t in p.tech" class="tech">
-            {{t}}
-          </p>
+          <!--<p ng-repeat="t in p.tech" class="tech">-->
+            <!--{{t}}-->
+          <!--</p>-->
         </div>
       </div>
 
       <!-- skill -->
       <div ng-controller="skill">
-        <h1>{{skill}}</h1>
+        <h1 class="title">{{skill}}</h1>
+        <div ng-repeat="(s, k) in skills" class="skills">
+          {{s}}: {{k}}
+        </div>
       </div>
 
     </div>

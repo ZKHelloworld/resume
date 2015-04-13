@@ -29,8 +29,7 @@ module.exports = function(grunt) {
         files: {
           'public/css/style.css': [
             'css/reset.less',
-            'css/layout.less',
-            'css/theme.less',
+            'css/style.less',
             'css/profile.less',
             'css/experience.less',
             'css/project.less',
