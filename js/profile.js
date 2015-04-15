@@ -1,6 +1,7 @@
 (function() {
   app.controller('profile', ['$scope', '$http', function($scope, $http) {
     $http.get('data/profile.json').success(function(ret) {
+      $scope.live = ret.live;
       $scope.name = ret.name;
       $scope.gender = ret.gender;
       $scope.birth = ret.birth;

@@ -1,4 +1,5 @@
 {
+  "live": "Live版",
   "name": "郑铿宏",
   "gender": "男",
   "birth": "1989-12",
@@ -7,7 +8,7 @@
   "majar": "计算机科学与技术",
   "phone": "186-1712-0383",
   "email": "zhengkenghong@gmail.com",
-  "gravatar": "http://www.gravatar.com/avatar/1cd51f0ba2679fae4718338ac3b9dde9?s=200",
+  "gravatar": "public/images/gravatar.jpeg",
   "sns": [{
     "href": "https://twitter.com/zhengkenghong",
     "alt": "twitter",

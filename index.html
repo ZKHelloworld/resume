@@ -3,7 +3,7 @@
   <head>
     <title>ZKH | Resume</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0,user-scalable=yes,minimum-scale=0.5">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=yes,minimum-scale=0.3">
     <link href="public/css/style.css" rel="stylesheet" type="text/css">
 
     <script src="public/js/jquery.min.js"></script>
@@ -25,36 +25,36 @@
       <!-- profile -->
       <div ng-controller="profile">
         <div class="live-wrapper">
-          <a class="live" href="http://www.zkh.im">LIVE版</a>
+          <a class="live" href="http://www.zkh.im">{{live}}</a>
         </div>
         <img alt="gravatar" ng-src="{{gravatar}}"/>
         <h1 class="contacts">
           {{name}}
         </h1>
-        <p class="contacts">
+        <h3 class="contacts">
           {{phone}} | <a href="mailto:{{email}}">{{email}}</a>
-        </p>
-        <p class="contacts">
+        </h3>
+        <h3 class="contacts">
           {{highSchool}} | {{grade}} | {{majar}}
           <a ng-repeat="s in sns" class="sns" href="{{s.href}}">
             <img alt="{{s.alt}}" ng-src="{{s.src}}"/>
           </a>
-        </p>
+        </h3>
       </div>
 
       <!-- experiences -->
       <div ng-controller="experience">
-        <h1 class="title">{{experience}}</h1>
+        <h2 class="title">{{experience}}</h2>
         <div ng-repeat="e in experiences" class="experience">
-          <h2>{{e.company}} {{e.title}} <span class="duration">{{e.duration}}<span></h2>
+          <h3>{{e.company}} {{e.title}} <span class="duration">{{e.duration}}<span></h3>
         </div>
       </div>
 
       <!-- projects -->
       <div ng-controller="project">
-        <h1 class="title">{{project}}</h1>
+        <h2 class="title">{{project}}</h2>
         <div ng-repeat="p in projects" class="projects">
-          <h2>{{p.title}} <span class="duration">{{p.duration}}</span></h2>
+          <h3>{{p.title}} <span class="duration">{{p.duration}}</span></h3>
           <p class="brief">{{p.brief}}</p>
           <p class="detail">{{p.detail}}</p>
         </div>
@@ -62,11 +62,17 @@
 
       <!-- skill -->
       <div ng-controller="skill">
-        <h1 class="title">{{skill}}</h1>
+        <h2 class="title">{{skill}}</h2>
         <div ng-repeat="(s, k) in skills" class="skills">
           {{s}}: {{k}}
         </div>
       </div>
+
+      <!-- description -->
+      <!--<div ng-controller="description">-->
+        <!--<h2 class="title">{{description}}</h2>-->
+        <!--<p>{{brief}}</p>-->
+      <!--</div>-->
 
     </div>
   </body>

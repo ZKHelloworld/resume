@@ -13,10 +13,7 @@ module.exports = function(grunt) {
         files: {
           'public/js/main.min.js': [
             'js/main.js',
-            'js/profile.js',
-            'js/experience.js',
-            'js/project.js',
-            'js/skill.js'
+            'js/*.js'
           ]
         }
       }
@@ -30,10 +27,7 @@ module.exports = function(grunt) {
           'public/css/style.css': [
             'css/reset.less',
             'css/style.less',
-            'css/profile.less',
-            'css/experience.less',
-            'css/project.less',
-            'css/skill.less'
+            'css/*.less'
           ]
         }
       }
