@@ -32,3 +32,38 @@
     }
   }
 }
+
+.live-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 90px;
+  height: 90px;
+
+  z-index: 2;
+  overflow: hidden;
+
+  a.live {
+    display: block;
+    position: absolute;
+    top: 13px;
+
+    width: 90*1.42px;
+    height: 30px;
+    line-height: 30px;
+    transform: rotate(45deg);
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background-color: #949495;
+
+    z-index: 1;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

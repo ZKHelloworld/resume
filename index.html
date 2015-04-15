@@ -24,6 +24,9 @@
 
       <!-- profile -->
       <div ng-controller="profile">
+        <div class="live-wrapper">
+          <a class="live" href="http://www.zkh.im">LIVE版</a>
+        </div>
         <img alt="gravatar" ng-src="{{gravatar}}"/>
         <h1 class="contacts">
           {{name}}
@@ -53,9 +56,7 @@
         <div ng-repeat="p in projects" class="projects">
           <h2>{{p.title}} <span class="duration">{{p.duration}}</span></h2>
           <p class="brief">{{p.brief}}</p>
-          <!--<p ng-repeat="t in p.tech" class="tech">-->
-            <!--{{t}}-->
-          <!--</p>-->
+          <p class="detail">{{p.detail}}</p>
         </div>
       </div>
 

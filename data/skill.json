@@ -1,14 +1,15 @@
 {
   "skill": "技术栈",
   "skills": {
-    "WEB开发": "JS、HTML、CSS、NodeJS",
+    "WEB开发": "JavaScript、HTML、CSS/LESS、NodeJS",
     "工程工具": "Grunt、Bower",
     "版本管理": "Git/Gerrit",
     "编辑器": "VIM",
     "数据库": "Mysql",
-    "前端框架": "AngularJS、Bootstrap",
+    "前端框架": "AngularJS、Bootstrap、Backbone",
     "后端框架": "ExpressJS、ROR",
     "测试框架": "Jasmine",
-    "开发平台": "OSX、Ubuntu"
+    "开发平台": "OSX、Ubuntu",
+    "英语": "六级"
   }
 }
