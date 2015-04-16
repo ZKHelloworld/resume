@@ -5,10 +5,10 @@
       $scope.name = ret.name;
       $scope.gender = ret.gender;
       $scope.birth = ret.birth;
-      $scope.highSchool = ret.high_school;
+      $scope.university = ret.university;
       $scope.grade = ret.grade;
       $scope.college = ret.college;
-      $scope.majar = ret.majar;
+      $scope.major = ret.major;
       $scope.phone = ret.phone;
       $scope.email = ret.email;
       $scope.gravatar = ret.gravatar;
