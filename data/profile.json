@@ -26,7 +26,7 @@
     "alt": "weibo",
     "src": "public/images/weibo.png"
   }, {
-    "href": "javascript:;",
+    "href": "#",
     "alt": "wechat",
     "src": "public/images/wechat.png",
     "dropdown": false,
