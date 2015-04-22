@@ -37,7 +37,8 @@
         <h3 class="contacts">
           {{university}} | {{grade}} | {{major}}
           <a ng-repeat="s in sns" class="sns" href="{{s.href}}">
-            <img alt="{{s.alt}}" ng-src="{{s.src}}"/>
+            <img alt="{{s.alt}}" ng-src="{{s.src}}" ng-click="s.dropdown = !s.dropdown"/>
+            <img class="dropdown" ng-if="s.dropdown" ng-src="{{s.second_image}}"/>
           </a>
         </h3>
       </div>

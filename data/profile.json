@@ -26,6 +26,12 @@
     "alt": "weibo",
     "src": "public/images/weibo.png"
   }, {
+    "href": "javascript:;",
+    "alt": "wechat",
+    "src": "public/images/wechat.png",
+    "dropdown": false,
+    "second_image": "public/images/wechat_qr.jpg"
+  }, {
     "href": "https://github.com/ZKHelloworld",
     "alt": "github",
     "src": "public/images/github.png"
